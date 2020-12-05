@@ -844,6 +844,11 @@ a {
 .cid-s1YNw91RvB .navbar.collapsed.opened .dropdown-menu {
   top: 0;
 }
+@media (min-width: 992px) {
+  .cid-s1YNw91RvB .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 2.8rem);
+  }
+}
 .cid-s1YNw91RvB .navbar.collapsed .dropdown-menu .dropdown-submenu {
   left: 0 !important;
 }
